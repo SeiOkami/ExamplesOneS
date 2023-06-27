@@ -348,6 +348,7 @@
 									<v8:content>Группа при вставке из буфера обмена</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПриВставкеИзБуфераОбменаРасширеннаяПодсказка" id="246"/>
@@ -413,6 +414,9 @@
 												<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеУправлениеПоискомКонтекстноеМеню" id="211"/>
 												<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеУправлениеПоискомРасширеннаяПодсказка" id="212"/>
 											</SearchControlAddition>
+											<Events>
+												<Event name="OnActivateRow">ПриВставкеИзБуфераОбменаДанныеПриАктивизацииСтроки</Event>
+											</Events>
 											<ChildItems>
 												<InputField name="ПриВставкеИзБуфераОбменаДанныеТип" id="213">
 													<DataPath>ПриВставкеИзБуфераОбменаДанные.Тип</DataPath>
@@ -458,18 +462,82 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПриВставкеИзБуфераОбменаПравоРасширеннаяПодсказка" id="241"/>
 									<ChildItems>
-										<PictureField name="ПриВставкеИзБуфераОбменаДанныеКартинка" id="222">
-											<DataPath>Items.ПриВставкеИзБуфераОбменаДанные.CurrentData.АдресКартинки</DataPath>
+										<Pages name="ПриВставкеИзБуфераОбменаСодержимоеСтраницы" id="250">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Картинка</v8:content>
+													<v8:content>Содержимое</v8:content>
 												</v8:item>
 											</Title>
-											<Width>30</Width>
-											<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеКартинкаКонтекстноеМеню" id="223"/>
-											<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеКартинкаРасширеннаяПодсказка" id="224"/>
-										</PictureField>
+											<ExtendedTooltip name="ПриВставкеИзБуфераОбменаСодержимоеСтраницыРасширеннаяПодсказка" id="251"/>
+											<ChildItems>
+												<Page name="ПриВставкеИзБуфераОбменаСодержимоеСтраницаКартинка" id="252">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Картинка</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ПриВставкеИзБуфераОбменаСодержимоеСтраницаКартинкаРасширеннаяПодсказка" id="253"/>
+													<ChildItems>
+														<PictureField name="ПриВставкеИзБуфераОбменаДанныеКартинка" id="222">
+															<DataPath>Items.ПриВставкеИзБуфераОбменаДанные.CurrentData.АдресКартинки</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Картинка</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>None</TitleLocation>
+															<Width>30</Width>
+															<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеКартинкаКонтекстноеМеню" id="223"/>
+															<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеКартинкаРасширеннаяПодсказка" id="224"/>
+														</PictureField>
+													</ChildItems>
+												</Page>
+												<Page name="ПриВставкеИзБуфераОбменаСодержимоеСтраницаФайлТекст" id="258">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Текст</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ПриВставкеИзБуфераОбменаСодержимоеСтраницаФайлТекстРасширеннаяПодсказка" id="259"/>
+													<ChildItems>
+														<TextDocumentField name="ПриВставкеИзБуфераОбменаДанныеСодержимоеФайла" id="247">
+															<DataPath>Items.ПриВставкеИзБуфераОбменаДанные.CurrentData.СодержимоеФайла</DataPath>
+															<TitleLocation>None</TitleLocation>
+															<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеСодержимоеФайлаКонтекстноеМеню" id="248"/>
+															<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеСодержимоеФайлаРасширеннаяПодсказка" id="249"/>
+														</TextDocumentField>
+													</ChildItems>
+												</Page>
+												<Page name="ПриВставкеИзБуфераОбменаСодержимоеСтраницаФайлДвоичныеДанные" id="260">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Двоичные данные</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ПриВставкеИзБуфераОбменаСодержимоеСтраницаФайлДвоичныеДанныеРасширеннаяПодсказка" id="261"/>
+													<ChildItems>
+														<InputField name="ПриВставкеИзБуфераОбменаДанныеДвоичныеДанные" id="262">
+															<DataPath>Items.ПриВставкеИзБуфераОбменаДанные.CurrentData.ДвоичныеДанные</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<TitleLocation>None</TitleLocation>
+															<Width>50</Width>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<AutoMaxHeight>false</AutoMaxHeight>
+															<MultiLine>true</MultiLine>
+															<ExtendedEdit>true</ExtendedEdit>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеДвоичныеДанныеКонтекстноеМеню" id="263"/>
+															<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеДвоичныеДанныеРасширеннаяПодсказка" id="264"/>
+														</InputField>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
 									</ChildItems>
 								</UsualGroup>
 							</ChildItems>
@@ -917,6 +985,36 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СодержимоеФайла" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Содержимое файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДвоичныеДанные" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Двоичные данные</v8:content>
 						</v8:item>
 					</Title>
 					<Type>

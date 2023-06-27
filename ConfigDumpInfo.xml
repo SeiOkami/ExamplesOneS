@@ -2,7 +2,7 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="Catalog.Номенклатура" id="7bc3bc36-55c3-4850-96b6-417a02080690" configVersion="68ef5feedaeec8468746d7e7e765f04400000000"/>
-		<Metadata name="Configuration.ПримерыРаботы" id="cf506535-f109-4893-aefd-0f00459078ad" configVersion="089249e14e9b344ab1d2c69cb555817b00000000"/>
+		<Metadata name="Configuration.ПримерыРаботы" id="cf506535-f109-4893-aefd-0f00459078ad" configVersion="0fad8c0a7a348146aeaed9af1a18a8c800000000"/>
 		<Metadata name="Configuration.ПримерыРаботы.ClientApplicationInterface" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.b" configVersion="5198e4d3a3ca1e4eac15ae3dccd06f3b00000000"/>
 		<Metadata name="Configuration.ПримерыРаботы.HomePageWorkArea" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.8" configVersion="8b6e5359b8ea9448a03316db9c22f62400000000"/>
 		<Metadata name="Configuration.ПримерыРаботы.ManagedApplicationModule" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.6" configVersion="67be162a6caf6f4b9732ac325d6d14fb00000000"/>
@@ -14,8 +14,8 @@
 		<Metadata name="DataProcessor.ПроверкаРегулярныхВыражений.Form.Форма.Form" id="c2ca32b4-e6f4-4585-9f99-8d8a786d75af.0" configVersion="82ed559bba06554e933d2d57fc4f899900000000"/>
 		<Metadata name="DataProcessor.ПроверкаРегулярныхВыражений.ObjectModule" id="1aa79747-b835-4b14-9209-afc7fdaa52a1.0" configVersion="e32207fe135c5f408a4d76a8483af99700000000"/>
 		<Metadata name="DataProcessor.РаботаСБуферомОбмена" id="5fe3ec40-4e64-41b7-8c8f-55bc2fc02cab" configVersion="d577216c0ee81d4a8ebc6a8aca1fbf1900000000"/>
-		<Metadata name="DataProcessor.РаботаСБуферомОбмена.Form.Форма" id="2917c6ad-a0f8-47e1-9d78-e7981c379ad7" configVersion="f2eaa942b1069e4cbb40bba863a9351700000000"/>
-		<Metadata name="DataProcessor.РаботаСБуферомОбмена.Form.Форма.Form" id="2917c6ad-a0f8-47e1-9d78-e7981c379ad7.0" configVersion="6c3265b82a6f8544b6a20b95353dadd400000000"/>
+		<Metadata name="DataProcessor.РаботаСБуферомОбмена.Form.Форма" id="2917c6ad-a0f8-47e1-9d78-e7981c379ad7" configVersion="5729724ca9a5ca42b47155703670410e00000000"/>
+		<Metadata name="DataProcessor.РаботаСБуферомОбмена.Form.Форма.Form" id="2917c6ad-a0f8-47e1-9d78-e7981c379ad7.0" configVersion="1057815f01423c40884a523298551de500000000"/>
 		<Metadata name="DataProcessor.РаботаСБуферомОбмена.Template.ФорматыБуфера" id="8b16f73c-e60c-4215-b0c0-9b185387409f" configVersion="86281e06806ef940af399f0b5d9af45b00000000"/>
 		<Metadata name="DataProcessor.РаботаСБуферомОбмена.Template.ФорматыБуфера.Template" id="8b16f73c-e60c-4215-b0c0-9b185387409f.0" configVersion="0eebfa7a2dfe894c8aebcd4acb7b775000000000"/>
 		<Metadata name="Language.Русский" id="698e21a0-233f-4f19-90a1-55c1d5afef7b" configVersion="550b5de86dc2b44bb8a68d10a279e4ab00000000"/>
