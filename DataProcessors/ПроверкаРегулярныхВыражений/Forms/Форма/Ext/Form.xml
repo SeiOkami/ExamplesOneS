@@ -1,0 +1,1120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnSaveDataInSettingsAtServer">ПриСохраненииДанныхВНастройкахНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ШапкаФормы" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаФормыРасширеннаяПодсказка" id="64"/>
+			<ChildItems>
+				<CommandBar name="КоманднаяПанель" id="65">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="66"/>
+					<ChildItems>
+						<Button name="ФормаПрименитьРегулярноеВыражение" id="13">
+							<Type>CommandBarButton</Type>
+							<DefaultButton>true</DefaultButton>
+							<CommandName>Form.Command.ПрименитьРегулярноеВыражение</CommandName>
+							<ExtendedTooltip name="ФормаПрименитьРегулярноеВыражениеРасширеннаяПодсказка" id="14"/>
+						</Button>
+						<ButtonGroup name="ФормаСохранение" id="11">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Форма сохранение</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Форма сохранение</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>Compact</Representation>
+							<ExtendedTooltip name="ФормаСохранениеРасширеннаяПодсказка" id="12"/>
+							<ChildItems>
+								<Button name="ФормаВосстановитьЗначения" id="9">
+									<Type>CommandBarButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.StandardCommand.RestoreValues</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузить</v8:content>
+										</v8:item>
+									</Title>
+									<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+									<ExtendedTooltip name="ФормаВосстановитьЗначенияРасширеннаяПодсказка" id="10"/>
+								</Button>
+								<Button name="ФормаСохранитьЗначения" id="7">
+									<Type>CommandBarButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.StandardCommand.SaveValues</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сохранить</v8:content>
+										</v8:item>
+									</Title>
+									<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+									<ExtendedTooltip name="ФормаСохранитьЗначенияРасширеннаяПодсказка" id="8"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+						<Button name="ОткрытьТелеграмКанал" id="144">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ОткрытьТелеграмКанал</CommandName>
+							<Picture>
+								<xr:Abs>Picture.svg</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ОткрытьТелеграмКаналРасширеннаяПодсказка" id="145"/>
+						</Button>
+						<Button name="ОткрытьРепозиторийГитхаб" id="146">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ОткрытьРепозиторийГитхаб</CommandName>
+							<Picture>
+								<xr:Abs>Picture.svg</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ОткрытьРепозиторийГитхабРасширеннаяПодсказка" id="147"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+				<InputField name="ОбъектРегулярныхВыражений" id="67">
+					<DataPath>ОбъектРегулярныхВыражений</DataPath>
+					<Visible>false</Visible>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ContextMenu name="ОбъектРегулярныхВыраженийКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ОбъектРегулярныхВыраженийРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<CheckBoxField name="ПрименятьПриИзмененииПолей" id="60">
+					<DataPath>ПрименятьПриИзмененииПолей</DataPath>
+					<CheckBoxType>Switcher</CheckBoxType>
+					<ContextMenu name="ПрименятьПриИзмененииПолейКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="ПрименятьПриИзмененииПолейРасширеннаяПодсказка" id="62"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОсновная" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<Pages name="СтраницыДействия" id="72">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действия</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы действия</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницыДействияРасширеннаяПодсказка" id="73"/>
+					<ChildItems>
+						<Page name="СтраницаОсновная" id="120">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основная</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница основная</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницаОсновнаяРасширеннаяПодсказка" id="121"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаВыржение" id="58">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа выржение</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа выржение</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаВыржениеРасширеннаяПодсказка" id="59"/>
+									<ChildItems>
+										<InputField name="РегулярноеВыражение" id="4">
+											<DataPath>РегулярноеВыражение</DataPath>
+											<ContextMenu name="РегулярноеВыражениеКонтекстноеМеню" id="5"/>
+											<ExtendedTooltip name="РегулярноеВыражениеРасширеннаяПодсказка" id="6"/>
+											<Events>
+												<Event name="OnChange">РегулярноеВыражениеПриИзменении</Event>
+											</Events>
+										</InputField>
+										<CheckBoxField name="МногострочныйПоиск" id="138">
+											<DataPath>МногострочныйПоиск</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="МногострочныйПоискКонтекстноеМеню" id="139"/>
+											<ExtendedTooltip name="МногострочныйПоискРасширеннаяПодсказка" id="140"/>
+										</CheckBoxField>
+										<CheckBoxField name="ИгнорироватьРегистр" id="141">
+											<DataPath>ИгнорироватьРегистр</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИгнорироватьРегистрКонтекстноеМеню" id="142"/>
+											<ExtendedTooltip name="ИгнорироватьРегистрРасширеннаяПодсказка" id="143"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаРезультат" id="43">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа результат</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа результат</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаРезультатРасширеннаяПодсказка" id="44"/>
+									<ChildItems>
+										<FormattedDocumentField name="ТестоваяСтрока" id="1">
+											<DataPath>ТестоваяСтрока</DataPath>
+											<ContextMenu name="ТестоваяСтрокаКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="ТестоваяСтрокаРасширеннаяПодсказка" id="3"/>
+											<Events>
+												<Event name="OnChange">ТестоваяСтрокаПриИзменении</Event>
+											</Events>
+										</FormattedDocumentField>
+										<InputField name="СтрокаЗамены" id="18">
+											<DataPath>СтрокаЗамены</DataPath>
+											<ContextMenu name="СтрокаЗаменыКонтекстноеМеню" id="19"/>
+											<ExtendedTooltip name="СтрокаЗаменыРасширеннаяПодсказка" id="20"/>
+											<Events>
+												<Event name="OnChange">СтрокаЗаменыПриИзменении</Event>
+											</Events>
+										</InputField>
+										<TextDocumentField name="РезультатЗамены" id="15">
+											<DataPath>РезультатЗамены</DataPath>
+											<ContextMenu name="РезультатЗаменыКонтекстноеМеню" id="16"/>
+											<ExtendedTooltip name="РезультатЗаменыРасширеннаяПодсказка" id="17"/>
+										</TextDocumentField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+						<Page name="СтраницаРасшифровка" id="45">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расшифровка</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница расшифровка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="46"/>
+							<ChildItems>
+								<CheckBoxField name="СтрокаПодобна" id="52">
+									<DataPath>СтрокаПодобна</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="СтрокаПодобнаКонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="СтрокаПодобнаРасширеннаяПодсказка" id="54"/>
+								</CheckBoxField>
+								<Table name="Расшифровка" id="21">
+									<Representation>List</Representation>
+									<ReadOnly>true</ReadOnly>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Расшифровка</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="РасшифровкаКонтекстноеМеню" id="22"/>
+									<AutoCommandBar name="РасшифровкаКоманднаяПанель" id="23"/>
+									<ExtendedTooltip name="РасшифровкаРасширеннаяПодсказка" id="24"/>
+									<SearchStringAddition name="РасшифровкаСтрокаПоиска" id="25">
+										<AdditionSource>
+											<Item>Расшифровка</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РасшифровкаСтрокаПоискаКонтекстноеМеню" id="26"/>
+										<ExtendedTooltip name="РасшифровкаСтрокаПоискаРасширеннаяПодсказка" id="27"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="РасшифровкаСостояниеПросмотра" id="28">
+										<AdditionSource>
+											<Item>Расшифровка</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РасшифровкаСостояниеПросмотраКонтекстноеМеню" id="29"/>
+										<ExtendedTooltip name="РасшифровкаСостояниеПросмотраРасширеннаяПодсказка" id="30"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="РасшифровкаУправлениеПоиском" id="31">
+										<AdditionSource>
+											<Item>Расшифровка</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="РасшифровкаУправлениеПоискомКонтекстноеМеню" id="32"/>
+										<ExtendedTooltip name="РасшифровкаУправлениеПоискомРасширеннаяПодсказка" id="33"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="РасшифровкаПозиция" id="34">
+											<DataPath>Расшифровка.Позиция</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="РасшифровкаПозицияКонтекстноеМеню" id="35"/>
+											<ExtendedTooltip name="РасшифровкаПозицияРасширеннаяПодсказка" id="36"/>
+										</InputField>
+										<InputField name="РасшифровкаДлина" id="37">
+											<DataPath>Расшифровка.Длина</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="РасшифровкаДлинаКонтекстноеМеню" id="38"/>
+											<ExtendedTooltip name="РасшифровкаДлинаРасширеннаяПодсказка" id="39"/>
+										</InputField>
+										<InputField name="РасшифровкаТекст" id="40">
+											<DataPath>Расшифровка.Текст</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="РасшифровкаТекстКонтекстноеМеню" id="41"/>
+											<ExtendedTooltip name="РасшифровкаТекстРасширеннаяПодсказка" id="42"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<InputField name="РасшифровкаТекст1" id="49">
+									<DataPath>Items.Расшифровка.CurrentData.Текст</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<MultiLine>true</MultiLine>
+									<ExtendedEdit>true</ExtendedEdit>
+									<ContextMenu name="РасшифровкаТекст1КонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="РасшифровкаТекст1РасширеннаяПодсказка" id="51"/>
+								</InputField>
+							</ChildItems>
+						</Page>
+						<Page name="СтраницаЗамеры" id="74">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Замеры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница замеры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницаЗамерыРасширеннаяПодсказка" id="75"/>
+							<ChildItems>
+								<Button name="ВыполнитьЗамеры" id="70">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВыполнитьЗамеры</CommandName>
+									<ExtendedTooltip name="ВыполнитьЗамерыРасширеннаяПодсказка" id="71"/>
+								</Button>
+								<UsualGroup name="ГруппаПодходы" id="82">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа подходы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа подходы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПодходыРасширеннаяПодсказка" id="83"/>
+									<ChildItems>
+										<InputField name="КоличествоПодходов" id="79">
+											<DataPath>КоличествоПодходов</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подходов</v8:content>
+												</v8:item>
+											</Title>
+											<SpinButton>true</SpinButton>
+											<MinValue xsi:type="xs:decimal">1</MinValue>
+											<ContextMenu name="КоличествоПодходовКонтекстноеМеню" id="80"/>
+											<ExtendedTooltip name="КоличествоПодходовРасширеннаяПодсказка" id="81"/>
+										</InputField>
+										<InputField name="КоличествоЗаПодход" id="76">
+											<DataPath>КоличествоЗаПодход</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>За подход</v8:content>
+												</v8:item>
+											</Title>
+											<SpinButton>true</SpinButton>
+											<MinValue xsi:type="xs:decimal">1</MinValue>
+											<ContextMenu name="КоличествоЗаПодходКонтекстноеМеню" id="77"/>
+											<ExtendedTooltip name="КоличествоЗаПодходРасширеннаяПодсказка" id="78"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="ДействиеЗамера" id="84">
+									<DataPath>ДействиеЗамера</DataPath>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ContextMenu name="ДействиеЗамераКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ДействиеЗамераРасширеннаяПодсказка" id="86"/>
+								</InputField>
+								<UsualGroup name="ГруппаАнализЗамера" id="134">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Результат замеров</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа анализ замера</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ExtendedTooltip name="ГруппаАнализЗамераРасширеннаяПодсказка" id="135"/>
+									<ChildItems>
+										<LabelField name="НадписьАнализРезультатовЗамера" id="131">
+											<DataPath>НадписьАнализРезультатовЗамера</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<TextColor>style:SpecialTextColor</TextColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="НадписьАнализРезультатовЗамераКонтекстноеМеню" id="132"/>
+											<ExtendedTooltip name="НадписьАнализРезультатовЗамераРасширеннаяПодсказка" id="133"/>
+										</LabelField>
+										<UsualGroup name="ГруппаРезультаыЗамера" id="115">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Результаты замеров</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа результаы замера</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Collapsible</Behavior>
+											<ControlRepresentation>Picture</ControlRepresentation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаРезультаыЗамераРасширеннаяПодсказка" id="116"/>
+											<ChildItems>
+												<Table name="РезультатыЗамеров" id="87">
+													<Representation>List</Representation>
+													<ChangeRowSet>false</ChangeRowSet>
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<DataPath>РезультатыЗамеров</DataPath>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="РезультатыЗамеровКонтекстноеМеню" id="88"/>
+													<AutoCommandBar name="РезультатыЗамеровКоманднаяПанель" id="89"/>
+													<ExtendedTooltip name="РезультатыЗамеровРасширеннаяПодсказка" id="90"/>
+													<SearchStringAddition name="РезультатыЗамеровСтрокаПоиска" id="91">
+														<AdditionSource>
+															<Item>РезультатыЗамеров</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="РезультатыЗамеровСтрокаПоискаКонтекстноеМеню" id="92"/>
+														<ExtendedTooltip name="РезультатыЗамеровСтрокаПоискаРасширеннаяПодсказка" id="93"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="РезультатыЗамеровСостояниеПросмотра" id="94">
+														<AdditionSource>
+															<Item>РезультатыЗамеров</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="РезультатыЗамеровСостояниеПросмотраКонтекстноеМеню" id="95"/>
+														<ExtendedTooltip name="РезультатыЗамеровСостояниеПросмотраРасширеннаяПодсказка" id="96"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="РезультатыЗамеровУправлениеПоиском" id="97">
+														<AdditionSource>
+															<Item>РезультатыЗамеров</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="РезультатыЗамеровУправлениеПоискомКонтекстноеМеню" id="98"/>
+														<ExtendedTooltip name="РезультатыЗамеровУправлениеПоискомРасширеннаяПодсказка" id="99"/>
+													</SearchControlAddition>
+													<ChildItems>
+														<InputField name="РезультатыЗамеровПодход" id="122">
+															<DataPath>РезультатыЗамеров.Подход</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровПодходКонтекстноеМеню" id="123"/>
+															<ExtendedTooltip name="РезультатыЗамеровПодходРасширеннаяПодсказка" id="124"/>
+														</InputField>
+														<InputField name="РезультатыЗамеровСпособ" id="100">
+															<DataPath>РезультатыЗамеров.Способ</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровСпособКонтекстноеМеню" id="101"/>
+															<ExtendedTooltip name="РезультатыЗамеровСпособРасширеннаяПодсказка" id="102"/>
+														</InputField>
+														<InputField name="РезультатыЗамеровОбщееВремя" id="103">
+															<DataPath>РезультатыЗамеров.ОбщееВремя</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Общее время (мс.)</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровОбщееВремяКонтекстноеМеню" id="104"/>
+															<ExtendedTooltip name="РезультатыЗамеровОбщееВремяРасширеннаяПодсказка" id="105"/>
+														</InputField>
+														<InputField name="РезультатыЗамеровЧислоРаз" id="125">
+															<DataPath>РезультатыЗамеров.ЧислоРаз</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Всего раз</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровЧислоРазКонтекстноеМеню" id="126"/>
+															<ExtendedTooltip name="РезультатыЗамеровЧислоРазРасширеннаяПодсказка" id="127"/>
+														</InputField>
+														<InputField name="РезультатыЗамеровСреднееВремя" id="106">
+															<DataPath>РезультатыЗамеров.СреднееВремя</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Один раз за мс.</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровСреднееВремяКонтекстноеМеню" id="107"/>
+															<ExtendedTooltip name="РезультатыЗамеровСреднееВремяРасширеннаяПодсказка" id="108"/>
+														</InputField>
+														<InputField name="РезультатыЗамеровРазВМилисекунду" id="128">
+															<DataPath>РезультатыЗамеров.РазВМилисекунду</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Всего раз в мс.</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровРазВМилисекундуКонтекстноеМеню" id="129"/>
+															<ExtendedTooltip name="РезультатыЗамеровРазВМилисекундуРасширеннаяПодсказка" id="130"/>
+														</InputField>
+														<InputField name="РезультатыЗамеровРезультат" id="112">
+															<DataPath>РезультатыЗамеров.Результат</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="РезультатыЗамеровРезультатКонтекстноеМеню" id="113"/>
+															<ExtendedTooltip name="РезультатыЗамеровРезультатРасширеннаяПодсказка" id="114"/>
+														</InputField>
+													</ChildItems>
+												</Table>
+												<TextDocumentField name="РезультатыЗамеровРезультат1" id="117">
+													<DataPath>Items.РезультатыЗамеров.CurrentData.Результат</DataPath>
+													<ContextMenu name="РезультатыЗамеровРезультат1КонтекстноеМеню" id="118"/>
+													<ExtendedTooltip name="РезультатыЗамеровРезультат1РасширеннаяПодсказка" id="119"/>
+												</TextDocumentField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПроверкаРегулярныхВыражений</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="РегулярноеВыражение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регулярное выражение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>РегулярноеВыражение</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТестоваяСтрока" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тестовая строка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РезультатЗамены" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат замены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтрокаЗамены" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка замены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>СтрокаЗамены</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Расшифровка" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расшифровка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Позиция" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Позиция</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Длина" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Длина</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Текст" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СтрокаПодобна" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка подобна</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрименятьПриИзмененииПолей" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применять при изменении полей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПрименятьПриИзмененииПолей</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СкоростьЗамены" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скорость замены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбъектРегулярныхВыражений" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ОбъектРегулярныхВыражений</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ДоступныеОбъектыРегулярок" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доступные объекты регулярок</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="РезультатыЗамеров" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты замеров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Способ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОбщееВремя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общее время</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СреднееВремя" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Среднее время</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="РазВСекунду" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Раз в секунду</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Результат" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="РазВМилисекунду" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Раз в милисекунду</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЧислоРаз" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число раз</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Подход" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подход</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="КоличествоПодходов" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество подходов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>КоличествоПодходов</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="КоличествоЗаПодход" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество за подход</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>КоличествоЗаПодход</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ДействиеЗамера" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие замера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ДействиеЗамера</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ВспомогательныеДанные" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вспомогательные данные</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ТестоваяСтрокаТекст" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тестовая строка текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НадписьАнализРезультатовЗамера" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Надпись анализ результатов замера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИгнорироватьРегистр" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Игнорировать регистр</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ИгнорироватьРегистр</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="МногострочныйПоиск" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Многострочный поиск</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>МногострочныйПоиск</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПрименитьРегулярноеВыражение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить регулярное выражение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить регулярное выражение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_ПрименитьРегулярноеВыражение</Action>
+		</Command>
+		<Command name="ВыполнитьЗамеры" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить замеры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить замеры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_ВыполнитьЗамеры</Action>
+		</Command>
+		<Command name="ОткрытьТелеграмКанал" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть телеграм канал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть телеграм канал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьТелеграмКанал</Action>
+		</Command>
+		<Command name="ОткрытьРепозиторийГитхаб" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть репозиторий Гитхаб</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть репозиторий гитхаб</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьРепозиторийГитхаб</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnPasteFromClipboard">ПриВставкеИзБуфераОбмена</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="108"/>
+			<ChildItems>
+				<Page name="СтраницаСредстваБуфераОбмена" id="109">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СредстваБуфераОбмена</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница средства буфера обмена</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСредстваБуфераОбменаРасширеннаяПодсказка" id="110"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанельСредстваБуфераОбмена" id="190">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель средства буфера обмена</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель средства буфера обмена</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="КоманднаяПанельСредстваБуфераОбменаРасширеннаяПодсказка" id="191"/>
+							<ChildItems>
+								<Button name="ФормаСкопироватьВБуферОбмена" id="45">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.СкопироватьВБуферОбмена</CommandName>
+									<ExtendedTooltip name="ФормаСкопироватьВБуферОбменаРасширеннаяПодсказка" id="46"/>
+								</Button>
+								<Button name="ФормаВставитьИзБуфераОбмена" id="47">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ВставитьИзБуфераОбмена</CommandName>
+									<ExtendedTooltip name="ФормаВставитьИзБуфераОбменаРасширеннаяПодсказка" id="48"/>
+								</Button>
+								<Button name="СохранитьЗначения" id="194">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.StandardCommand.SaveValues</CommandName>
+									<ExtendedTooltip name="СохранитьЗначенияРасширеннаяПодсказка" id="195"/>
+								</Button>
+								<Button name="ВосстановитьЗначения" id="196">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.StandardCommand.RestoreValues</CommandName>
+									<ExtendedTooltip name="ВосстановитьЗначенияРасширеннаяПодсказка" id="197"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<Pages name="СтраницыСредстваБуфераОбмена" id="32">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>СредстваБуфераОбмена</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы средства буфера обмена</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницыСредстваБуфераОбменаРасширеннаяПодсказка" id="33"/>
+							<ChildItems>
+								<Page name="СтраницаСредстваБуфераОбменаТекст" id="34">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Текст</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница средства буфера обмена текст</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаСредстваБуфераОбменаТекстРасширеннаяПодсказка" id="35"/>
+									<ChildItems>
+										<LabelDecoration name="СредстваБуфераОбменаТекстПояснение" id="229">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Используется формат данных буфера обмена &lt;u&gt;СтандартныйФорматДанныхБуфераОбмена.Текст&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СредстваБуфераОбменаТекстПояснениеКонтекстноеМеню" id="230"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаТекстПояснениеРасширеннаяПодсказка" id="231"/>
+										</LabelDecoration>
+										<TextDocumentField name="СредстваБуфераОбменаТекст" id="38">
+											<DataPath>СредстваБуфераОбменаТекст</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Текст</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="СредстваБуфераОбменаТекстКонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаТекстРасширеннаяПодсказка" id="40"/>
+										</TextDocumentField>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаСредстваБуфераОбменаHTML" id="49">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>HTML</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница средства буфера обмена HTML</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаСредстваБуфераОбменаHTMLРасширеннаяПодсказка" id="50"/>
+									<ChildItems>
+										<LabelDecoration name="СредстваБуфераОбменаHTMLПояснение" id="232">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Используется формат данных буфера обмена &lt;u&gt;СтандартныйФорматДанныхБуфераОбмена.HTML&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СредстваБуфераОбменаHTMLПояснениеКонтекстноеМеню" id="233"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаHTMLПояснениеРасширеннаяПодсказка" id="234"/>
+										</LabelDecoration>
+										<TextDocumentField name="СредстваБуфераОбменаHTMLТекст" id="71">
+											<DataPath>СредстваБуфераОбменаHTMLТекст</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="СредстваБуфераОбменаHTMLТекстКонтекстноеМеню" id="72"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаHTMLТекстРасширеннаяПодсказка" id="73"/>
+										</TextDocumentField>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаСредстваБуфераОбменаКартинка" id="74">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Картинка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница средства буфера обмена картинка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаСредстваБуфераОбменаКартинкаРасширеннаяПодсказка" id="75"/>
+									<ChildItems>
+										<LabelDecoration name="СредстваБуфераОбменаКартинкаПояснение" id="235">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Используется формат данных буфера обмена &lt;u&gt;СтандартныйФорматДанныхБуфераОбмена.Картинка&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СредстваБуфераОбменаКартинкаПояснениеКонтекстноеМеню" id="236"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаКартинкаПояснениеРасширеннаяПодсказка" id="237"/>
+										</LabelDecoration>
+										<PictureField name="СредстваБуфераОбменаКартинка" id="76">
+											<DataPath>СредстваБуфераОбменаКартинкаАдрес</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="СредстваБуфераОбменаКартинкаКонтекстноеМеню" id="77"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаКартинкаРасширеннаяПодсказка" id="78"/>
+										</PictureField>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаСредстваБуфераОбменаТаблица" id="36">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Таблица</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница средства буфера обмена таблица</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаСредстваБуфераОбменаТаблицаРасширеннаяПодсказка" id="37"/>
+									<ChildItems>
+										<LabelDecoration name="СредстваБуфераОбменаПояснениеТаблица" id="104">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Строки таблицы формы будут помещены в буфер обмена в форматах:
+• Текст
+• HTML
+• XML (массив структур)
+
+Результат копирования можно проверить вставит в текст, html или в эту же таблицу. Или посмотреть на странице "Анализ буфера"
+Дополнительно можно проверить вставку в Word, Excel, Табличный документ 1С и так далее</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СредстваБуфераОбменаПояснениеТаблицаКонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="СредстваБуфераОбменаПояснениеТаблицаРасширеннаяПодсказка" id="106"/>
+										</LabelDecoration>
+										<Table name="СредстваБуфераОбменаТаблицаФормы" id="79">
+											<Representation>List</Representation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>СредстваБуфераОбменаТаблицаФормы</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СредстваБуфераОбменаТаблицаФормыКонтекстноеМеню" id="80"/>
+											<AutoCommandBar name="СредстваБуфераОбменаТаблицаФормыКоманднаяПанель" id="81">
+												<ChildItems>
+													<Button name="ПримерТаблицаФормыОчиститьТаблицуФормы" id="227">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОчиститьТаблицуФормы</CommandName>
+														<ExtendedTooltip name="ПримерТаблицаФормыОчиститьТаблицуФормыРасширеннаяПодсказка" id="228"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыРасширеннаяПодсказка" id="82"/>
+											<SearchStringAddition name="СредстваБуфераОбменаТаблицаФормыСтрокаПоиска" id="83">
+												<AdditionSource>
+													<Item>СредстваБуфераОбменаТаблицаФормы</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СредстваБуфераОбменаТаблицаФормыСтрокаПоискаКонтекстноеМеню" id="84"/>
+												<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыСтрокаПоискаРасширеннаяПодсказка" id="85"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СредстваБуфераОбменаТаблицаФормыСостояниеПросмотра" id="86">
+												<AdditionSource>
+													<Item>СредстваБуфераОбменаТаблицаФормы</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СредстваБуфераОбменаТаблицаФормыСостояниеПросмотраКонтекстноеМеню" id="87"/>
+												<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыСостояниеПросмотраРасширеннаяПодсказка" id="88"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СредстваБуфераОбменаТаблицаФормыУправлениеПоиском" id="89">
+												<AdditionSource>
+													<Item>СредстваБуфераОбменаТаблицаФормы</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СредстваБуфераОбменаТаблицаФормыУправлениеПоискомКонтекстноеМеню" id="90"/>
+												<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыУправлениеПоискомРасширеннаяПодсказка" id="91"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="СредстваБуфераОбменаТаблицаФормыСсылка" id="92">
+													<DataPath>СредстваБуфераОбменаТаблицаФормы.Ссылка</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СредстваБуфераОбменаТаблицаФормыСсылкаКонтекстноеМеню" id="93"/>
+													<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыСсылкаРасширеннаяПодсказка" id="94"/>
+												</InputField>
+												<InputField name="СредстваБуфераОбменаТаблицаФормыЧисло" id="95">
+													<DataPath>СредстваБуфераОбменаТаблицаФормы.Число</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СредстваБуфераОбменаТаблицаФормыЧислоКонтекстноеМеню" id="96"/>
+													<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыЧислоРасширеннаяПодсказка" id="97"/>
+												</InputField>
+												<InputField name="СредстваБуфераОбменаТаблицаФормыСтрока" id="98">
+													<DataPath>СредстваБуфераОбменаТаблицаФормы.Строка</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СредстваБуфераОбменаТаблицаФормыСтрокаКонтекстноеМеню" id="99"/>
+													<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыСтрокаРасширеннаяПодсказка" id="100"/>
+												</InputField>
+												<InputField name="СредстваБуфераОбменаТаблицаФормыДата" id="101">
+													<DataPath>СредстваБуфераОбменаТаблицаФормы.Дата</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СредстваБуфераОбменаТаблицаФормыДатаКонтекстноеМеню" id="102"/>
+													<ExtendedTooltip name="СредстваБуфераОбменаТаблицаФормыДатаРасширеннаяПодсказка" id="103"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПриВставкеИзБуфераОбмена" id="198">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПриВставкеИзБуфераОбмена</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница при вставке из буфера обмена</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПриВставкеИзБуфераОбменаРасширеннаяПодсказка" id="199"/>
+					<ChildItems>
+						<LabelDecoration name="ПриВставкеИзБуфераОбменаПояснение" id="242">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Событие &lt;u&gt;ПриВставкеИзБуфераОбмена()&lt;/&gt; срабатывает при попытке вставить &lt;u&gt;файл или картинку&lt;/&gt;.
+
+Для этого просто нажмите &lt;b&gt;Ctrl+V&lt;/&gt;.
+
+При этом сработает событие формы и поместит данные из буфера в таблицу ниже.
+Дополнительно сработает одноименное глобальное событие из модуля приложения и выведет оповещение.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПриВставкеИзБуфераОбменаПояснениеКонтекстноеМеню" id="243"/>
+							<ExtendedTooltip name="ПриВставкеИзБуфераОбменаПояснениеРасширеннаяПодсказка" id="244"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПриВставкеИзБуфераОбмена" id="245">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа при вставке из буфера обмена</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПриВставкеИзБуфераОбменаРасширеннаяПодсказка" id="246"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПриВставкеИзБуфераОбменаЛево" id="238">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа при вставке из буфера обмена лево</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа при вставке из буфера обмена лево</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПриВставкеИзБуфераОбменаЛевоРасширеннаяПодсказка" id="239"/>
+									<ChildItems>
+										<Table name="ПриВставкеИзБуфераОбменаДанные" id="200">
+											<Representation>List</Representation>
+											<ReadOnly>true</ReadOnly>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ПриВставкеИзБуфераОбменаДанные</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеКонтекстноеМеню" id="201"/>
+											<AutoCommandBar name="ПриВставкеИзБуфераОбменаДанныеКоманднаяПанель" id="202">
+												<ChildItems>
+													<Button name="ПриВставкеИзБуфераОбменаДанныеОчиститьТаблицуФормы" id="225">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОчиститьТаблицуФормы</CommandName>
+														<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеОчиститьТаблицуФормыРасширеннаяПодсказка" id="226"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеРасширеннаяПодсказка" id="203"/>
+											<SearchStringAddition name="ПриВставкеИзБуфераОбменаДанныеСтрокаПоиска" id="204">
+												<AdditionSource>
+													<Item>ПриВставкеИзБуфераОбменаДанные</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеСтрокаПоискаКонтекстноеМеню" id="205"/>
+												<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеСтрокаПоискаРасширеннаяПодсказка" id="206"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ПриВставкеИзБуфераОбменаДанныеСостояниеПросмотра" id="207">
+												<AdditionSource>
+													<Item>ПриВставкеИзБуфераОбменаДанные</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеСостояниеПросмотраКонтекстноеМеню" id="208"/>
+												<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеСостояниеПросмотраРасширеннаяПодсказка" id="209"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ПриВставкеИзБуфераОбменаДанныеУправлениеПоиском" id="210">
+												<AdditionSource>
+													<Item>ПриВставкеИзБуфераОбменаДанные</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеУправлениеПоискомКонтекстноеМеню" id="211"/>
+												<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеУправлениеПоискомРасширеннаяПодсказка" id="212"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ПриВставкеИзБуфераОбменаДанныеТип" id="213">
+													<DataPath>ПриВставкеИзБуфераОбменаДанные.Тип</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеТипКонтекстноеМеню" id="214"/>
+													<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеТипРасширеннаяПодсказка" id="215"/>
+												</InputField>
+												<InputField name="ПриВставкеИзБуфераОбменаДанныеПолноеИмяФайла" id="216">
+													<DataPath>ПриВставкеИзБуфераОбменаДанные.ПолноеИмяФайла</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеПолноеИмяФайлаКонтекстноеМеню" id="217"/>
+													<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеПолноеИмяФайлаРасширеннаяПодсказка" id="218"/>
+												</InputField>
+												<InputField name="ПриВставкеИзБуфераОбменаДанныеАдресКартинки" id="219">
+													<DataPath>ПриВставкеИзБуфераОбменаДанные.АдресКартинки</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеАдресКартинкиКонтекстноеМеню" id="220"/>
+													<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеАдресКартинкиРасширеннаяПодсказка" id="221"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаПриВставкеИзБуфераОбменаПраво" id="240">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа при вставке из буфера обмена право</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа при вставке из буфера обмена право</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПриВставкеИзБуфераОбменаПравоРасширеннаяПодсказка" id="241"/>
+									<ChildItems>
+										<PictureField name="ПриВставкеИзБуфераОбменаДанныеКартинка" id="222">
+											<DataPath>Items.ПриВставкеИзБуфераОбменаДанные.CurrentData.АдресКартинки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка</v8:content>
+												</v8:item>
+											</Title>
+											<Width>30</Width>
+											<ContextMenu name="ПриВставкеИзБуфераОбменаДанныеКартинкаКонтекстноеМеню" id="223"/>
+											<ExtendedTooltip name="ПриВставкеИзБуфераОбменаДанныеКартинкаРасширеннаяПодсказка" id="224"/>
+										</PictureField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаАнализБуфера" id="111">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Анализ буфера</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница анализ буфера</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаАнализБуфераРасширеннаяПодсказка" id="112"/>
+					<ChildItems>
+						<Button name="ПрочитатьБуферОбмена" id="192">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПрочитатьБуферОбмена</CommandName>
+							<ExtendedTooltip name="ПрочитатьБуферОбменаРасширеннаяПодсказка" id="193"/>
+						</Button>
+						<Pages name="СтраницыТипыБуфера" id="113">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы типы буфера</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы типы буфера</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницыТипыБуфераРасширеннаяПодсказка" id="114"/>
+							<ChildItems>
+								<Page name="СтраницаСодержитТипы" id="115">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Содержит форматы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница содержит типы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>HorizontalIfPossible</Group>
+									<ExtendedTooltip name="СтраницаСодержитТипыРасширеннаяПодсказка" id="116"/>
+									<ChildItems>
+										<Table name="СодержащиесяТипыБуфера" id="117">
+											<Representation>List</Representation>
+											<ReadOnly>true</ReadOnly>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ФорматыБуфера</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СодержащиесяТипыБуфераКонтекстноеМеню" id="118"/>
+											<AutoCommandBar name="СодержащиесяТипыБуфераКоманднаяПанель" id="119"/>
+											<ExtendedTooltip name="СодержащиесяТипыБуфераРасширеннаяПодсказка" id="120"/>
+											<SearchStringAddition name="СодержащиесяТипыБуфераСтрокаПоиска" id="121">
+												<AdditionSource>
+													<Item>СодержащиесяТипыБуфера</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СодержащиесяТипыБуфераСтрокаПоискаКонтекстноеМеню" id="122"/>
+												<ExtendedTooltip name="СодержащиесяТипыБуфераСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СодержащиесяТипыБуфераСостояниеПросмотра" id="124">
+												<AdditionSource>
+													<Item>СодержащиесяТипыБуфера</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СодержащиесяТипыБуфераСостояниеПросмотраКонтекстноеМеню" id="125"/>
+												<ExtendedTooltip name="СодержащиесяТипыБуфераСостояниеПросмотраРасширеннаяПодсказка" id="126"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СодержащиесяТипыБуфераУправлениеПоиском" id="127">
+												<AdditionSource>
+													<Item>СодержащиесяТипыБуфера</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СодержащиесяТипыБуфераУправлениеПоискомКонтекстноеМеню" id="128"/>
+												<ExtendedTooltip name="СодержащиесяТипыБуфераУправлениеПоискомРасширеннаяПодсказка" id="129"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="СодержащиесяТипыБуфераСтандратный" id="169">
+													<DataPath>ФорматыБуфера.Стандратный</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="СодержащиесяТипыБуфераСтандратныйКонтекстноеМеню" id="170"/>
+													<ExtendedTooltip name="СодержащиесяТипыБуфераСтандратныйРасширеннаяПодсказка" id="171"/>
+												</CheckBoxField>
+												<InputField name="СодержащиесяТипыБуфераКлюч" id="172">
+													<DataPath>ФорматыБуфера.Ключ</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СодержащиесяТипыБуфераКлючКонтекстноеМеню" id="173"/>
+													<ExtendedTooltip name="СодержащиесяТипыБуфераКлючРасширеннаяПодсказка" id="174"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+										<TextDocumentField name="СодержащиесяТипыБуфераСодержимое" id="142">
+											<DataPath>Items.СодержащиесяТипыБуфера.CurrentData.Содержимое</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<ContextMenu name="СодержащиесяТипыБуфераСодержимоеКонтекстноеМеню" id="143"/>
+											<ExtendedTooltip name="СодержащиесяТипыБуфераСодержимоеРасширеннаяПодсказка" id="144"/>
+										</TextDocumentField>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаВсеТипыБуфера" id="145">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Все форматы буфера</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница все типы буфера</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаВсеТипыБуфераРасширеннаяПодсказка" id="146"/>
+									<ChildItems>
+										<LabelDecoration name="ПояснениеВсеФорматы" id="187">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Список MIME форматов буфера обмена
+&lt;link https://www.npmjs.com/package/mime-db&gt;https://www.npmjs.com/package/mime-db&lt;/&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ПояснениеВсеФорматыКонтекстноеМеню" id="188"/>
+											<ExtendedTooltip name="ПояснениеВсеФорматыРасширеннаяПодсказка" id="189"/>
+										</LabelDecoration>
+										<Table name="ТипыБуфера" id="147">
+											<Representation>List</Representation>
+											<ReadOnly>true</ReadOnly>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ФорматыБуфера</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТипыБуфераКонтекстноеМеню" id="148"/>
+											<AutoCommandBar name="ТипыБуфераКоманднаяПанель" id="149"/>
+											<ExtendedTooltip name="ТипыБуфераРасширеннаяПодсказка" id="150"/>
+											<SearchStringAddition name="ТипыБуфераСтрокаПоиска" id="151">
+												<AdditionSource>
+													<Item>ТипыБуфера</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТипыБуфераСтрокаПоискаКонтекстноеМеню" id="152"/>
+												<ExtendedTooltip name="ТипыБуфераСтрокаПоискаРасширеннаяПодсказка" id="153"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТипыБуфераСостояниеПросмотра" id="154">
+												<AdditionSource>
+													<Item>ТипыБуфера</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТипыБуфераСостояниеПросмотраКонтекстноеМеню" id="155"/>
+												<ExtendedTooltip name="ТипыБуфераСостояниеПросмотраРасширеннаяПодсказка" id="156"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТипыБуфераУправлениеПоиском" id="157">
+												<AdditionSource>
+													<Item>ТипыБуфера</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТипыБуфераУправлениеПоискомКонтекстноеМеню" id="158"/>
+												<ExtendedTooltip name="ТипыБуфераУправлениеПоискомРасширеннаяПодсказка" id="159"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="ТипыБуфераСтандратный" id="181">
+													<DataPath>ФорматыБуфера.Стандратный</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ТипыБуфераСтандратныйКонтекстноеМеню" id="182"/>
+													<ExtendedTooltip name="ТипыБуфераСтандратныйРасширеннаяПодсказка" id="183"/>
+												</CheckBoxField>
+												<InputField name="ТипыБуфераКлюч" id="184">
+													<DataPath>ФорматыБуфера.Ключ</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ТипыБуфераКлючКонтекстноеМеню" id="185"/>
+													<ExtendedTooltip name="ТипыБуфераКлючРасширеннаяПодсказка" id="186"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РаботаСБуферомОбмена</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СредстваБуфераОбменаТаблицаФормы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средства буфера обмена таблица формы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Save>
+				<Field>СредстваБуфераОбменаТаблицаФормы</Field>
+			</Save>
+			<Columns>
+				<Column name="Ссылка" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="Число" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Строка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Дата" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СредстваБуфераОбменаТекст" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средства буфера обмена текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>СредстваБуфераОбменаТекст</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СредстваБуфераОбменаHTMLТекст" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средства буфера обмена HTMLТекст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>СредстваБуфераОбменаHTMLТекст</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СредстваБуфераОбменаКартинкаАдрес" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средства буфера обмена картинка адрес</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФорматыБуфера" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматы буфера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Стандратный" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стандратный</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Ключ" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СодержитсяВБуфере" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Содержится в буфере</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Содержимое" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Содержимое</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПриВставкеИзБуфераОбменаДанные" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>При вставке из буфера обмена данные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Тип" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПолноеИмяФайла" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полное имя файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="АдресКартинки" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СкопироватьВБуферОбмена" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать в буфер обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать в буфер обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_СкопироватьВБуферОбмена</Action>
+		</Command>
+		<Command name="ВставитьИзБуфераОбмена" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить из буфера обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить из буфера обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_ВставитьИзБуфераОбмена</Action>
+		</Command>
+		<Command name="ПрочитатьБуферОбмена" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать буфер обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать буфер обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_ПрочитатьБуферОбмена</Action>
+		</Command>
+		<Command name="ОчиститьТаблицуФормы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить таблицу формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Команда_ОчиститьТаблицуФормы</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>
