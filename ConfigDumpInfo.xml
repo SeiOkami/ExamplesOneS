@@ -2,9 +2,9 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="Catalog.Номенклатура" id="7bc3bc36-55c3-4850-96b6-417a02080690" configVersion="68ef5feedaeec8468746d7e7e765f04400000000"/>
-		<Metadata name="Configuration.ПримерыРаботы" id="cf506535-f109-4893-aefd-0f00459078ad" configVersion="0fad8c0a7a348146aeaed9af1a18a8c800000000"/>
+		<Metadata name="Configuration.ПримерыРаботы" id="cf506535-f109-4893-aefd-0f00459078ad" configVersion="7d16f0edb2cd7c4d97763c3a07578e6400000000"/>
 		<Metadata name="Configuration.ПримерыРаботы.ClientApplicationInterface" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.b" configVersion="5198e4d3a3ca1e4eac15ae3dccd06f3b00000000"/>
-		<Metadata name="Configuration.ПримерыРаботы.HomePageWorkArea" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.8" configVersion="8b6e5359b8ea9448a03316db9c22f62400000000"/>
+		<Metadata name="Configuration.ПримерыРаботы.HomePageWorkArea" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.8" configVersion="723f60d485502143b7da8568a7ad382c00000000"/>
 		<Metadata name="Configuration.ПримерыРаботы.ManagedApplicationModule" id="84de47d1-13ea-465c-aa62-83b1eaeb5dbb.6" configVersion="67be162a6caf6f4b9732ac325d6d14fb00000000"/>
 		<Metadata name="DataProcessor.ГлавнаяПанель" id="e5605365-a99c-4e33-9363-4f57b9b4f0d1" configVersion="6dbb9939fe38ee4ebf31cf16acb75b2400000000"/>
 		<Metadata name="DataProcessor.ГлавнаяПанель.Form.Форма" id="49bfabb5-6d00-4dc6-8d24-6492ffac56bf" configVersion="cd69ea20d9674f48a70af023f77dd5ec00000000"/>

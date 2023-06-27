@@ -3,7 +3,7 @@
 	<WorkingAreaTemplate>OneColumn</WorkingAreaTemplate>
 	<Column>
 		<Item>
-			<Form>DataProcessor.РаботаСБуферомОбмена.Form.Форма</Form>
+			<Form>DataProcessor.ГлавнаяПанель.Form.Форма</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>
