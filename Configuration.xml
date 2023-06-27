@@ -250,6 +250,7 @@
 			<DataProcessor>РаботаСБуферомОбмена</DataProcessor>
 			<DataProcessor>ГлавнаяПанель</DataProcessor>
 			<DataProcessor>ПроверкаРегулярныхВыражений</DataProcessor>
+			<DataProcessor>УстановкаОсновногоОформленияОтчетов</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

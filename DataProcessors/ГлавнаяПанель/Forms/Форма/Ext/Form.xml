@@ -13,6 +13,11 @@
 			<CommandName>DataProcessor.ПроверкаРегулярныхВыражений.StandardCommand.Open</CommandName>
 			<ExtendedTooltip name="ОбработкаПроверкаРегулярныхВыраженийОткрытьРасширеннаяПодсказка" id="4"/>
 		</Button>
+		<Button name="ОбработкаУстановкаОсновногоОформленияОтчетовОткрыть" id="5">
+			<Type>Hyperlink</Type>
+			<CommandName>DataProcessor.УстановкаОсновногоОформленияОтчетов.StandardCommand.Open</CommandName>
+			<ExtendedTooltip name="ОбработкаУстановкаОсновногоОформленияОтчетовОткрытьРасширеннаяПодсказка" id="6"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
