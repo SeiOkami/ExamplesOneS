@@ -8,7 +8,7 @@
 
 ## Работа с буфером обмена (8.3.24+)
 
-![image](https://github.com/SeiOkami/ExamplesOneS/assets/42138875/d9049023-5069-40f6-ae37-f28ff4a9d51f)
+![image](https://github.com/SeiOkami/ExamplesOneS/assets/42138875/02aa1e29-f970-49ab-919f-adf56d76edac)
 
 Инструмент для тестирования программного взаимодействия с буфером обмена.
 - Примеры работы разных форматов
