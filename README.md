@@ -1,3 +1,5 @@
+[![OpenYellow](https://img.shields.io/endpoint?url=https://openyellow.org/data/badges/1/659073849.json)](https://openyellow.org/grid?data=top&repo=659073849)
+
 # ExamplesOneS
  
 <b>Репозиторий содержит примеры работы с новыми возможностями 1С.</b>
